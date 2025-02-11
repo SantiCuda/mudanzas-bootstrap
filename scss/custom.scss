@@ -1,0 +1,42 @@
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import 'variable'; 
+
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
+@import 'topbar';
+
+@import'header';
+
+@import'carrousel';
+
+body {
+    font-family: $primary-font-family;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+  
+    @include media-breakpoint-down(lg) {
+      font-size: 14px;
+    }
+  }
+  
+  .container-fluid {
+    max-width: 2500px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+  }
+
+  #icon-text{
+    margin-left: 15px;
+    font-weight: 800;
+  }
+
